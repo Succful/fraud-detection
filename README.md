@@ -165,42 +165,13 @@ Anomaly Detection (Isolation Forest без разметки)
 ```
 fraud-detection/
 |
-|-- fraud_detection_full.ipynb   # основной ноутбук (12 блоков)
+|-- fraud_detection_full.ipynb   # основна (12 блоков)
 |-- fraud_analysis.sql           # SQL запросы первого этапа
 |-- requirements.txt             # зависимости
 |-- README.md
 |-- data/
-    |-- transactions_data.csv    # не загружен, скачать с Kaggle
+    |-- transactions_data.csv    # не загружен, скачать с Kaggle(https://www.kaggle.com/datasets/computingvictor/transactions-fraud-datasets)
 ```
-
----
-
-## Как запустить
-
-1. Клонировать репозиторий
-```bash
-git clone https://github.com/ТВО_ИМЯ/fraud-detection.git
-cd fraud-detection
-```
-
-2. Установить зависимости
-```bash
-pip install -r requirements.txt
-```
-
-3. Скачать датасет с Kaggle и положить в `data/`
-
-4. В ноутбуке в Блоке 3 поменять путь:
-```python
-PATH = r'data/transactions_data.csv'
-```
-
-5. Запустить:
-```
-Cell -> Run All
-```
-
----
 
 ## Стек
 
